@@ -4,23 +4,16 @@
 
 This project is a custom implementation of the standard C `printf` function.
 
-The goal is to understand how formatted output works internally using:
-- variadic functions
-- string and number handling
-- low-level character output
+It handles basic format specifiers using variadic functions and function pointers.
 
 ---
 
 ## ⚙️ Features
 
-This `_printf` supports the following format specifiers:
-
-| Specifier | Description |
-|-----------|------------|
-| %s | prints a string |
-| %c | prints a single character |
-| %d | prints a signed decimal integer |
-| %i | prints a signed integer |
+- %s → String
+- %c → Character
+- %d → Signed decimal
+- %i → Integer
 
 ---
 
@@ -28,12 +21,3 @@ This `_printf` supports the following format specifiers:
 
 ```c
 int _printf(const char *format, ...);
-
----
-
-## ✍️ Authors
-
-- AZZAM AL DUYULI  
-- Alzahraa Alhussain  
-
----
