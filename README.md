@@ -21,3 +21,8 @@ It handles basic format specifiers using variadic functions and function pointer
 
 ```c
 int _printf(const char *format, ...);
+```
+## ✍️ Authors
+
+- AZZAM AL DUYULI  
+- Alzahraa Alhussain  
